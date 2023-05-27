@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f);
+    -webkit-background-clip: text;
+    background-clip: text; /* Estándar */
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 5s linear infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .car {
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .car:last-child {
+    margin-right: 0;
+  }
+  
+  .car h3 {
+    margin-top: 0;
+  }
+  
+  .car p {
+    margin: 10px 0;
+  }
+  
+  .car button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .car button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #555;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  footer ul li i {
+    margin-right: 10px;
+    color: #555;
+  }
